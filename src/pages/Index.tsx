@@ -12,7 +12,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Icon name="MapPin" className="text-primary mr-2" size={28} />
-              <span className="text-xl font-montserrat font-bold text-gray-900">КазаньТур</span>
+              <span className="text-xl font-montserrat font-bold text-gray-900">Казань</span>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
