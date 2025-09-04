@@ -47,7 +47,9 @@ const Index = () => {
             Незабываемые экскурсии для школьных групп в столице Татарстана
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-4">Получить программу и цены</Button>
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-4" asChild>
+              <a href="#contacts">Получить программу и цены</a>
+            </Button>
             <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white/20 text-lg px-8 py-4">
               <Icon name="Play" size={20} className="mr-2" />
               Смотреть видео
